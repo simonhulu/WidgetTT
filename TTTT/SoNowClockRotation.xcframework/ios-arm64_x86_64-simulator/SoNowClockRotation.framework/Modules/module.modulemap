@@ -1,0 +1,11 @@
+framework module SoNowClockRotation {
+  umbrella header "SoNowClockRotation.h"
+
+  export *
+  module * { export * }
+}
+
+module SoNowClockRotation.Swift {
+    header "SoNowClockRotation-Swift.h"
+    requires objc
+}
